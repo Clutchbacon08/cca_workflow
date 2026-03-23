@@ -1,0 +1,80 @@
+{
+  "case_id": "CASE-001",
+  "opinion_date": "2026-03-22",
+  "provider_name": "Jonathan Ward",
+  "provider_credentials": "DC, DACNB",
+  "veteran_claimant": "Sample Veteran",
+  "theory_type": "Direct Service Connection",
+  "condition_family": "Tinnitus/Hearing",
+  "diagnosis": "Tinnitus",
+  "event_type": "Acoustic Trauma",
+  "str_records_date_range": "2011-2015",
+  "evidence": [
+    {
+      "id": "E01",
+      "include": true,
+      "source_type": "STR",
+      "document_date": "2013-06-12",
+      "document_name": "Service treatment note",
+      "key_finding": "Noise exposure during training exercises",
+      "relevance": "Supports event",
+      "page_reference": "p. 2",
+      "stance": "Supports"
+    },
+    {
+      "id": "E02",
+      "include": true,
+      "source_type": "Lay Statement",
+      "document_date": "2025-09-15",
+      "document_name": "Veteran statement",
+      "key_finding": "Ringing began in service and continued",
+      "relevance": "Supports continuity",
+      "page_reference": "p. 1",
+      "stance": "Supports"
+    },
+    {
+      "id": "E03",
+      "include": true,
+      "source_type": "VA Record",
+      "document_date": "2025-10-20",
+      "document_name": "Audiology consult",
+      "key_finding": "Chronic tinnitus diagnosis",
+      "relevance": "Supports diagnosis",
+      "page_reference": "p. 4",
+      "stance": "Supports"
+    }
+  ],
+  "reasoning": {
+    "diagnosis_support_strength": "Strong",
+    "diagnosis_evidence_summary": "Audiology records and clinical history support a current tinnitus diagnosis.",
+    "diagnosis_citation_ids": ["E03"],
+    "onset_timing": "During service",
+    "continuity_strength": "Strong",
+    "timeline_explanation": "Symptoms began during repeated weapons exposure and continued thereafter.",
+    "timeline_citation_ids": ["E01", "E02"],
+    "str_documentation_strength": "Yes",
+    "event_exposure_summary": "Repeated weapons noise exposure during training.",
+    "event_citation_ids": ["E01"],
+    "biologic_plausibility_strength": "Clear",
+    "medical_mechanism_explanation": "Acoustic trauma is a recognized mechanism for tinnitus even when audiometry is not severely abnormal.",
+    "mechanism_citation_ids": ["E01", "E03"],
+    "imaging_objective_support": "Neutral/Not Needed",
+    "functional_impact": "Moderate",
+    "lay_evidence_strength": "Strong",
+    "treatment_gap": "Explained",
+    "treatment_gap_explanation": "The veteran did not seek earlier care because he believed the ringing would resolve.",
+    "general_support_citation_ids": ["E01", "E02", "E03"]
+  },
+  "theory_specific": {
+    "direct_event_documented": "Yes",
+    "direct_service_reasoning": "The diagnosis is medically consistent with the documented in-service acoustic trauma and symptom continuity.",
+    "direct_citation_ids": ["E01", "E02", "E03"]
+  },
+  "rebuttal": {
+    "stronger_alternative_cause_present": "None",
+    "alternative_cause_summary": "No more persuasive post-service acoustic source is documented.",
+    "unfavorable_evidence_summary": "Formal diagnosis occurred after service and exit testing did not fully capture tinnitus symptoms.",
+    "rebuttal": "Normal separation testing does not exclude tinnitus, and the symptom history is coherent with service exposure.",
+    "rebuttal_citation_ids": ["E01", "E02", "E03"]
+  }
+}
