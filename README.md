@@ -1,4 +1,4 @@
-# Medical Nexus Workflow Python Starter
+# Medical Nexus Workflow Python Starter ###COPYRIGHT - DO NOT COPY WITHOUT EXPRESS PERMISSION. THIS IS COPYRIGHTED. 
 
 This is a Python starter rebuild of the Excel-guided medical nexus workflow. It converts the core workbook structure into a small FastAPI service that can be used inside a web application.
 
